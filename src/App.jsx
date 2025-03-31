@@ -1,13 +1,16 @@
 import { useState } from 'react'
 
 import './App.css'
+import { Interceptor } from './Components/Interceptor'
+import Axios from './Components/axios'
 
 function App() {
   
 
   return (
     <>
-      <h1>hdsbfhjks</h1>
+     <Interceptor/>
+     <Axios/>
     </>
   )
 }
